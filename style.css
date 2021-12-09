@@ -1,0 +1,154 @@
+
+:root {
+    --blue: #49bfff;
+    --white: #fff;
+    --gray: #333;
+}
+* {
+    box-sizing: border-box;
+}
+
+.py-5{
+    padding: 70px 0 !important;
+}
+
+/* nav and slider - header  */
+
+.bg-light{
+    background: var(--blue) !important;
+}
+
+.navbar-brand{
+    color: var(--white) !important;
+    font-size: 2em;
+}
+
+.navbar-brand:hover{
+    color: var(--gray) !important;
+    transition: .4s ease;
+}
+
+.nav-link{
+    color: var(--white) !important;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: var(--gray) !important;
+}
+
+.carousel-caption{
+    top: 30%;
+    text-align: left;
+}
+
+.btn-outline-primary{
+    color: var(--white);
+    border-color: var(--white);
+    border-radius: 0;
+}
+
+.btn-outline-primary:hover{
+    color: var(--blue);
+    border-color: var(--white);
+    background: var(--white);
+}
+
+/* counter */
+.counter i{
+    font-size: 3em;
+    color: var(--blue);
+    margin-bottom: 20px;
+}
+
+/* plan */
+.plan .icons{
+    width: 70px;
+    height: 70px;
+    background: var(--white);
+    color: var(--blue);
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
+/* packages */
+.packages .price{
+    position: relative;
+}
+
+.packages .tag{
+    display: inline-block;
+    background: var(--blue);
+    padding: 5px 10px;
+    color: var(--white);
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+}
+
+.packages .card-body i{
+    color: var(--blue);
+}
+/* enjoy the trip */
+.enjoy-the-trip{
+    background-image: linear-gradient(rgba(0, 0,0,.5), rgba(0, 0,0,.5)), url(img/slide-palms.jpg);
+    padding: 150px 0;
+    border-radius: 0;
+    border-radius: 0;
+}
+
+/* destinations */
+.destinations {
+    position: relative;
+}
+
+.destinations .stars{
+    position: absolute;
+    top: 35px;
+    left: 165px;
+    background: var(--blue);
+    color: var(--white);
+    padding: 3px;
+}
+
+/* contact */
+.contact{
+    color: lightgray;
+}
+
+.contact a{
+    color: var(--white);
+}
+
+.contact a:hover{
+    color: var(--blue);
+}
+
+.contact i{
+    color: var(--gray);
+    position: relative;
+    left: -30px;
+}
+
+input{
+    background: black;
+    color:white;
+    padding: 5px;
+}
+
+/* footer */
+footer{
+    background: #222020;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    color: white;
+}
+
+footer p{
+    margin-bottom: 0;
+}
